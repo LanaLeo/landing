@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>English school</title>
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="icons/css/all.css" />
+    </head>
+
+    <body>
+      
+        <header class="image-container">
+            
+        
+          <div class="navigation">
+              <item>
+                <img src="logo.svg" class="logo" alt="логотип">
+              </item>
+              <item>
+                <a href="#price-title">Стоимость</a>
+                <a href="#reviews-title">Отзывы</a>
+              </item>
+              <item class="contact">
+                <i class="fa-solid fa-phone contacts-logo"></i>
+                <p id="phone">+7 (123) 456-78-90</p>
+              </item> 
+          </div>
+          <div class="container1">
+              <p id="text1">Лучший способ заговорить на английском</p>
+              <p id="text2">Занимайся онлайн в удобное время в любом месте! Запишитесь на бесплатный пробный урок уже сегодня.</p>
+              <p id="text3">Записаться на пробный урок</p>
+          </div> 
+      </header>
+
+      <main>
+          <div class="dignity">
+              <p class="subtitle subtitle_dignity">Начните разговаривать с первого занятия</p>
+
+              <div class="dignity-item">
+
+                <div class="box box-first">
+                   <div class="box-logo"><i class="far fa-comment-dots box-icon"></i></div>
+                    <p class="box-title">Разговорная речь</p>
+                    <p id="box-text">Никаких грамматических заданий по учебнику! Изучайте язык в живой речи.</p>
+                </div>
+                <div class="box">
+                    <div class="box-logo"><i class="fal fa-globe box-icon"></i></div>
+                    <p class="box-title">Современный язык</p>
+                    <p id="box-text">Изучайте актуальный язык, общаясь с преподавателем на современные темы.</p>
+                </div>
+                <div class="box box-last">
+                    <div class="box-logo"><i class="fal fa-user box-icon"></i></div>
+                    <p class="box-title">Индивидуальные занятия</p>
+                    <p id="box-text">Преподаватель занимается только с Вами и Вы учитесь намного быстрее.</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="strategy">
+              <div class="about-strategy">
+                  <p class="subtitle-strategy">Мы научим говорить уверенно!</p>
+                  <p class="text-strategy" id="box-text">Мы считаем, что главная задача языка - помочь нам общаться друг с другом. Поэтому на наших занятиях мы отдаем приоритет разговорной речи и навыкам аудирования.</p>
+                  <p id="box-text">Мы не изучаем грамматические правила по учебнику, мы не выполняем задания, где нужно раскрыть скобки или поставить правильный артикль, мы занимаемся самым главным - разговариваем. Мы разговариваем на самые актуальные и интересные темы, чтобы вы могли пополнить свой словарный запас актуальными современными словами.</p>
+              </div>
+              <img class="image-people" src="group-people.jpg" alt="Изображение людей" />
+              
+
+          </div>
+          
+          <div class="record">
+            <p class="subtitle">Запишитесь на бесплатный урок уже сегодня</p>
+            <p id="box-text">Преподаватель определит ваш уровень и Вы пройдете полноценный первый урок</p>
+            <form action="/form-submit">
+
+                <div class="field">
+                    <label for="name">Ваше имя</label>
+                    <input id="name" type="text" name="firstName" />
+                </div>
+
+                <div class="field">
+                    <label for="telephone">Ваш телефон</label>
+                    <input id="telephone" type="number" />
+                </div>
+
+                
+
+                <button type="submit">Записаться на пробный урок</button>
+
+            </form>
+
+
+          </div>
+
+          <div class="reviews">
+              <div class="subtitle">
+                  <p id="reviews-title">У нас уже более 500 довольных учеников</p>
+                  <div id="reviews-item" >
+                    <p class="box-title">Ольга Морозова</p>
+                    <p class="reviews-text">Спасибо огромное преподавателю Марине. Я занимаюсь уже 6 месяцев и это лучшая школа иностранного языка, в которой я училась.</p>
+                    <p class="box-title">Андрей Иванов</p>
+                    <p class="reviews-text">Я учил английский 10 лет с 5 класса, но так и не мог уверенно разговаривать даже на бытовые темы. Я начал учиться в вашей школе всего 4 месяца назад и сейчас я вернулся из путешествия, в котором уверенно мог общаться с таксистами, официантами и гидами. Теперь мне нестрашно путешествовать!</p>
+                    <p class="box-title">Настя Петрова</p>
+                    <p class="reviews-text">Мне очень нравится методика преподавания, на уроках мы очень много общаемся и не выполняем скучных задания из учебников. Благодаря занятиям мой язык стал более живой, современный, я узнала про сленг, а на прошлой неделе познакомилась с иностранцем!</p>
+                  </div>
+                 
+              </div>
+          </div>
+
+          <div class="price">
+              <div class="subtitle"><p id="price-title">Наши абонементы</p></div>
+              
+              <div id="price-item">
+                  <div class="price-box">
+                    <p id="time">1 месяц</p>
+                    <p id="lessons">12 000 руб/ 8 уроков</p>
+                    <ul class="lessons-property">
+                        <li>8 уроков</li>
+                        <li>занятия 2 раза в неделю</li>
+                        <li>индивидуальные уроки</li>
+                    </ul>
+                    <div class="price-record">
+                        <p id="price-record-text">Записаться</p>
+                    </div>
+                  </div>
+                  
+                  <div class="price-box">
+                    <p id="time">3 месяца</p>
+                    <p id="lessons">32 000 руб / 24 урока</p>
+                    <ul class="lessons-property">
+                        <li>24 урока</li>
+                        <li>занятия 2 раза в неделю</li>
+                        <li>индивидуальные уроки</li>
+                        <li>бесплатный разговорный клуб</li>
+                    </ul>
+                    <div class="price-record">
+                        <p id="price-record-text">Записаться</p>
+                    </div>
+                  </div>
+                  
+                  <div class="price-box">
+                    <p id="time">6 месяцев</p>
+                    <p id="lessons">55 000 руб/ 58 уроков</p>
+                    <ul class="lessons-property">
+                        <li>58 уроков</li>
+                        <li>занятия 2 раза в неделю</li>
+                        <li>индивидуальные уроки</li>
+                        <li>бесплатный разговорный клуб</li>
+                        <li>бесплатная заморозка абонемента</li>
+                    </ul>
+                    <div class="price-record">
+                        <p id="price-record-text">Записаться</p>
+                    </div>
+                  </div>
+                
+              </div>
+              
+          </div>
+        </main>
+
+        <footer>
+            <div class="contact contact-first">
+                <i class="fa-solid fa-phone contacts-logo"></i>
+                <p id="phone">+7 (123) 456-78-90</p>
+            </div>
+
+            <div>
+
+            </div>
+
+
+            <div class="contact contact-last">
+                <p>english_house@email.com</p>
+            </div>
+        </footer>
+    </body>
+</html>
